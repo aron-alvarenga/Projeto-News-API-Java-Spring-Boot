@@ -387,6 +387,14 @@ Para usar MySQL em produção:
 mvn test
 ```
 
+## Novo Direcionamento
+
+* Transformar em **News CMS-lite**:
+  * Notícia com **status** (draft/published/archived), autor/editor, tags/categorias.
+  * **Busca e filtros**, paginação, ordenação.
+  * **Auditoria** + versionamento simples (histórico de edições).
+  * **Documentação e testes**, profile dev/prod e migrations.
+
 ## Contribuindo
 
 Contribuições são bem-vindas! Sinta-se à vontade para:
@@ -417,3 +425,4 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 ---
 
 **Nota**: Este projeto demonstra conceitos fundamentais de desenvolvimento backend com Spring Boot, servindo como base para projetos mais complexos e como portfólio técnico.
+
